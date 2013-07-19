@@ -9,7 +9,7 @@ class First(object):
         response = self.urllib2.urlopen(req)
         return response.read()
 
-    def post_data(self):
-        req = urllib2.Request(norm_path, data=data)
+    def post_data(self, destination, data):
+        req = urllib2.Request(destination, data=data)
         self.urllib2.urlopen(req)
         return True
