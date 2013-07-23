@@ -1,7 +1,6 @@
-
 ##layer that needs testing##
 
-from code import first
+from code.exceptional import first
 
 class Second(object):
     def get_and_post(self, location, destination):
