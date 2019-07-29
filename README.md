@@ -16,3 +16,4 @@ When you are finished, do a pull request to my original repo.
 SQUASH your commits! 
 
 This is a workflow you need to get familiar with.
+.
